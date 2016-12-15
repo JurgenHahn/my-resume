@@ -54,6 +54,7 @@ table {
 
 body {
     background-color: #d3d3d3;
+
   }
 
 header {
@@ -61,11 +62,16 @@ header {
   text-align: center;
   background-color: #d3d3d3;
   padding-bottom: 6px;
+  border-bottom: 2px solid black;
+  width: 33.33%;
+  margin-left: 33.33%;
+  margin-right: 33.33%;
 
 }
 
 header p {
   padding-bottom: 6px;
+  line-height: 18px;
 
 }
 
@@ -77,38 +83,36 @@ h1 {
 h2 {
   font-size: 22px;
   color: blue;
-}
-
-.skills{
-  width: 33%;
-  display: inline-block;
-}
-
-.education_experience {
-  width: 66%;
-  display: inline-block;
+  padding-bottom: 15px;
 
 }
-section {
-  margin-left: 250px;
-  padding-bottom: 8px;
+.column {
+
+  display:inline-block;
+  width: 30%;
+  vertical-align: top;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
 }
 
+.container {
+  padding-left: 30px;
+  padding-right: 30px;
+}
 section p {
   margin-left: 60px;
+  line-height: 18px;
 }
 
 table {
   margin-left: 60px;
-  margin-top: 10px;
   margin-bottom: 20px;
   line-height: 18px;
 }
 
-}
-.references {
-  text-align: center;
-}
+
+
 
 .date {
   padding-left: 20px;
@@ -116,7 +120,8 @@ table {
 
 .learned {
   padding-left: 20px;
-  font-style:italic;
+  font-style: italic;
+  padding-bottom: 8px;
 }
 
 .school {
@@ -124,5 +129,27 @@ table {
 }
 
 footer {
+  width: 33.33%;
   text-align: center;
+  padding-top: 18px;
+  padding-bottom: 32px;
+  border-top: 2px solid black;
+  margin-left: 33.33%;
+  margin-right:33.33%;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color:#FF00FF;
+}
+
+a:link {
+  color:green;
+}
+a:visited {
+  color:green;
 }
